@@ -103,7 +103,6 @@ public class Main3Activity extends AppCompatActivity {
         });
     }
 
-
     public void loadData() {
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url3, new Response.Listener<String>() {
             @Override
