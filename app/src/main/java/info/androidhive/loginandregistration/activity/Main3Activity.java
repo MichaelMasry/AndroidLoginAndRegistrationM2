@@ -58,6 +58,7 @@ import java.util.Comparator;
 import java.util.List;
 
 import info.androidhive.loginandregistration.R;
+import info.androidhive.loginandregistration.app.AppConfig;
 import info.androidhive.loginandregistration.helper.Landmark;
 import info.androidhive.loginandregistration.helper.LandmarkAdapter;
 
@@ -65,11 +66,12 @@ import static android.Manifest.permission.ACCESS_FINE_LOCATION;
 
 public class Main3Activity extends AppCompatActivity {
 
-    private final String url3 = "http://192.168.43.35/userDB/loadDB.php";
+    private final String url3 = AppConfig.URL_LOAD_DATA;
     private ListView listView;
     private ArrayList<Landmark> landmarkList;
     private LandMarkAdapter landMarkAdapter;
     private static LatLng currentLocation;
+    String userName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,28 +79,41 @@ public class Main3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_main3);
 
 
-
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.DKGRAY));
         listView = findViewById(R.id.listView);
         landmarkList = new ArrayList<>();
         landMarkAdapter = new LandMarkAdapter(this, landmarkList);
         Intent i = getIntent();
-        Bundle b = getIntent().getExtras();
+        Bundle b = i.getExtras();
+        userName =i.getStringExtra("userName");
         double lat = b.getDouble("Lat");
         double lon = b.getDouble("Lon");
         currentLocation = new LatLng(lat,lon);
         loadData();
+        Log.i("Michael0","correct");
         listView.setOnItemClickListener(new android.widget.AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Go to map view
-                Intent ii =  new Intent(getApplicationContext(),MapsActivity.class);
+                // Go to detail view
+                Intent iiii =  new Intent(getApplicationContext(),DetailActivity.class);
                 Bundle b = new Bundle();
+                Log.i("Michael","correct");
                 Landmark tempMark = (Landmark) landmarkList.get(position);
-                b.putDouble("Lat", tempMark.getLatitude());
-                b.putDouble("Lon", tempMark.getLongitude());
-                ii.putExtras(b);
-                startActivity(ii);
+            /*    ii.putExtra("Name",tempMark.getName());
+                ii.putExtra("Logo",tempMark.getImage());
+                ii.putExtra("Phone",tempMark.getPhoneNumber());*/
+                Log.i("Michael2","correct");
+                b.putString("userName",userName);
+                b.putString("Name",tempMark.getName());
+                b.putString("Logo",tempMark.getImage());
+                b.putString("Phone",tempMark.getPhoneNumber());
+                b.putDouble("Rating",tempMark.getRate());
+                b.putDouble("Lat",tempMark.getLatitude());
+                b.putDouble("Lon",tempMark.getLongitude());
+                b.putDouble("Distance",tempMark.getDistance());
+                iiii.putExtras(b);
+                Log.i("Michael3","correct");
+                startActivity(iiii);
             }
         });
     }
@@ -172,9 +187,8 @@ public class Main3Activity extends AppCompatActivity {
             int resID = res.getIdentifier(mDrawableName , "drawable", getPackageName());
             Drawable drawable = res.getDrawable(resID );
             logo.setImageDrawable(drawable);*/
-            String url = "http://192.168.43.35/" + user.getImage();
-            Picasso.get().load(url).
-                        resize(80,80).centerInside().into(logo);
+            String url = AppConfig.IP_Address + user.getImage();
+            Picasso.get().load(url).resize(80,80).centerInside().into(logo);
             // Return the completed view to render on screen
             return convertView;
         }
