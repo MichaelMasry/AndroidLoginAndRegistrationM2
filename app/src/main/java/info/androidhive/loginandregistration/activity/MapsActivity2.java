@@ -31,11 +31,15 @@ public class MapsActivity2 extends AppCompatActivity implements OnMapReadyCallba
 
     Button gotonearLoc;
     LatLng myLoc;
+    String username;
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
         Toast.makeText(this, "Map is Ready", Toast.LENGTH_SHORT).show();
         Log.d(TAG, "onMapReady: map is ready");
+
+        Intent i = getIntent();
+        username = i.getStringExtra("userName");
         mMap = googleMap;
 
         if (mLocationPermissionsGranted) {
@@ -79,9 +83,8 @@ public class MapsActivity2 extends AppCompatActivity implements OnMapReadyCallba
                 Bundle b = new Bundle();
                 b.putDouble("Lat", myLoc.latitude);
                 b.putDouble("Lon", myLoc.longitude);
+                b.putString("userName",username);
                 iii.putExtras(b);
-               //   iii.putExtra("myLocLat",myLoc.latitude  + "");
-               //   iii.putExtra("myLocLon",myLoc.longitude + "");
                 startActivity(iii);
             }
         });

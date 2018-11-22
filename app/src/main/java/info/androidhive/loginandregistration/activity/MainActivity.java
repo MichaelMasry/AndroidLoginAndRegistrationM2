@@ -46,7 +46,7 @@ public class MainActivity extends Activity {
 		// Fetching user details from SQLite
 		HashMap<String, String> user = db.getUserDetails();
 
-		String name = user.get("name");
+		final String name = user.get("name");
 		String email = user.get("email");
 
 		// Displaying the user details on the screen
@@ -65,6 +65,7 @@ public class MainActivity extends Activity {
 
 			public void onClick(View view) {
 				Intent i = new Intent(getApplicationContext(),MapsActivity2.class);
+				i.putExtra("userName",name);
 				startActivity(i);
 				finish();
 			}

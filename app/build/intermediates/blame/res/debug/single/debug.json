@@ -1004,12 +1004,12 @@
         "source": "C:\\Users\\DElll\\.gradle\\caches\\transforms-1\\files-1.1\\CountryCodePickerProject-v2.0.0.aar\\6bc467c2c12fac8f706f46b38a691eb9\\res\\drawable-nodpi-v4\\flag_swaziland.png"
     },
     {
-        "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_flag_syria.png.flat",
-        "source": "C:\\Users\\DElll\\.gradle\\caches\\transforms-1\\files-1.1\\CountryCodePickerProject-v2.0.0.aar\\6bc467c2c12fac8f706f46b38a691eb9\\res\\drawable-nodpi-v4\\flag_syria.png"
-    },
-    {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_flag_syria.png.flat",
+        "source": "C:\\Users\\DElll\\.gradle\\caches\\transforms-1\\files-1.1\\CountryCodePickerProject-v2.0.0.aar\\6bc467c2c12fac8f706f46b38a691eb9\\res\\drawable-nodpi-v4\\flag_syria.png"
     },
     {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
@@ -1584,6 +1584,10 @@
         "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\mipmap-xhdpi\\egypticon.png"
     },
     {
+        "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.png.flat",
+        "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\drawable\\add.png"
+    },
+    {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -1942,6 +1946,10 @@
     {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\xml_backup_descriptor.xml.flat",
         "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\xml\\backup_descriptor.xml"
+    },
+    {
+        "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable_roundcorner.xml.flat",
+        "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\drawable\\roundcorner.xml"
     },
     {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_flag_chad.png.flat",
@@ -2448,8 +2456,16 @@
         "source": "C:\\Users\\DElll\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c39698c0eec03e5e008900d3876d4f2f\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
+        "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_reviews.xml.flat",
+        "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\activity_reviews.xml"
+    },
+    {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\DElll\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c39698c0eec03e5e008900d3876d4f2f\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call.png.flat",
+        "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\drawable\\call.png"
     },
     {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar.xml.flat",
@@ -2588,6 +2604,10 @@
         "source": "C:\\Users\\DElll\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c39698c0eec03e5e008900d3876d4f2f\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout_review_layout.xml.flat",
+        "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\review_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_icon_color_selector.xml.flat",
         "source": "C:\\Users\\DElll\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\b0ee00e462aea1fe467003a90fe8f84c\\res\\color\\mtrl_tabs_icon_color_selector.xml"
     },
@@ -2624,6 +2644,10 @@
         "source": "C:\\Users\\DElll\\.gradle\\caches\\transforms-1\\files-1.1\\CountryCodePickerProject-v2.0.0.aar\\6bc467c2c12fac8f706f46b38a691eb9\\res\\drawable-nodpi-v4\\flag_sri_lanka.png"
     },
     {
+        "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable_navigate.png.flat",
+        "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\drawable\\navigate.png"
+    },
+    {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
         "source": "C:\\Users\\DElll\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\c39698c0eec03e5e008900d3876d4f2f\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
@@ -2646,6 +2670,10 @@
     {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_flag_comoros.png.flat",
         "source": "C:\\Users\\DElll\\.gradle\\caches\\transforms-1\\files-1.1\\CountryCodePickerProject-v2.0.0.aar\\6bc467c2c12fac8f706f46b38a691eb9\\res\\drawable-nodpi-v4\\flag_comoros.png"
+    },
+    {
+        "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\src\\main\\res\\layout\\activity_detail.xml"
     },
     {
         "merged": "C:\\Users\\DElll\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4_flag_seychelles.png.flat",

@@ -25,6 +25,7 @@ import com.hbb20.CountryCodePicker;
 import java.util.HashMap;
 import java.util.Map;
 import info.androidhive.loginandregistration.R;
+import info.androidhive.loginandregistration.app.AppConfig;
 import info.androidhive.loginandregistration.helper.SQLiteHandler;
 import info.androidhive.loginandregistration.helper.SessionManager;
 
@@ -41,7 +42,7 @@ public class RegisterActivity extends Activity {
     private CountryCodePicker ccp;
     private EditText inputAge;
     private EditText inputNumber;
-    String url = "http://192.168.43.35/userDB/register.php";
+    String url = AppConfig.URL_REGISTER;
     public static final String Name ="name";
     public static final String Email ="email";
     public static final String Password ="password";
@@ -139,42 +140,6 @@ public class RegisterActivity extends Activity {
                 Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
                 startActivity(intent);
                 finish();
-            /*    try {
-                    JSONObject jObj = new JSONObject(response);
-                    boolean error = jObj.getBoolean("error");
-                    if (!error) {
-                        // User successfully stored in MySQL
-                        // Now store the user in sqlite
-                        String uid = jObj.getString("uid");
-
-                        JSONObject user = jObj.getJSONObject("user");
-                        String name = user.getString("name");
-                        String email = user.getString("email");
-                        String created_at = user.getString("created_at");
-                        String age = user.getString("age");
-                        String country = user.getString("country");
-                        String number = user.getString("number");
-
-                        // Inserting row in users table
-                        db.addUser(name, email, uid, created_at,age,number,country);
-
-                        Toast.makeText(getApplicationContext(), "User successfully registered. Try login now!", Toast.LENGTH_LONG).show();
-
-                        // Launch login activity
-                        Intent intent = new Intent(RegisterActivity.this,LoginActivity.class);
-                        startActivity(intent);
-                        finish();
-                    } else {
-
-                        // Error occurred in registration. Get the error
-                        // message
-           //             String errorMsg = jObj.getString("error_msg");
-                        Toast.makeText(getApplicationContext(),"Error", Toast.LENGTH_LONG).show();
-                    }
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-*/
             }
         }, new Response.ErrorListener() {
 

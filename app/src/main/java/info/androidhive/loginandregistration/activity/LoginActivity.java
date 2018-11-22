@@ -20,11 +20,12 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 import info.androidhive.loginandregistration.R;
+import info.androidhive.loginandregistration.app.AppConfig;
 import info.androidhive.loginandregistration.helper.SQLiteHandler;
 import info.androidhive.loginandregistration.helper.SessionManager;
 
 public class LoginActivity extends Activity {
-    private static final String TAG = RegisterActivity.class.getSimpleName();
+    private static final String TAG = LoginActivity.class.getSimpleName();
     private Button btnLogin;
     private Button btnLinkToRegister;
     private EditText inputEmail;
@@ -32,7 +33,7 @@ public class LoginActivity extends Activity {
     private ProgressDialog pDialog;
     private SessionManager session;
     private SQLiteHandler db;
-    private final String url = "http://192.168.43.35/userDB/login.php";
+    private final String url = AppConfig.URL_LOGIN;
     public static final String Key_Email = "email";
     public static final String Key_Password = "password";
 
@@ -113,7 +114,6 @@ public class LoginActivity extends Activity {
             public void onResponse(String response) {
                 Log.d(TAG, "Login Response: " + response);
                 hideDialog();
-                System.out.println("999999999999999999999999999999999999999999999999999999999999999999999999999999999");
                 System.out.println(response);
                 try {
                     JSONObject jObj = new JSONObject(response);
@@ -124,7 +124,7 @@ public class LoginActivity extends Activity {
                         db.addUser(name, email);
                         session.setLogin(true);
                         Intent iii = new Intent(getApplicationContext(),MapsActivity2.class);
-                        iii.putExtra("name",name);
+                        iii.putExtra("userName",name);
                         iii.putExtra("email",email);
                         startActivity(iii);
                         finish();

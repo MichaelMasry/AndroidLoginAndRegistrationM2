@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-64:12
+ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-66:12
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\DElll\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\3feb9f977f4d0d4a0d30f78f7c83107e\AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\DElll\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\67111af5388fff382086c1b061611ffe\AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\DElll\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\b0ee00e462aea1fe467003a90fe8f84c\AndroidManifest.xml:17:1-24:12
@@ -47,9 +47,9 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\DElll\.gradle\cac
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\DElll\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\50c9b289c1fc5b00796bb0f986b16ee1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\DElll\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\e96f9deec28db7b5933a2a561a99acda\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\DElll\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bae39cd5a534624ebc44720a4b7677e5\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:2:1-66:12
 	package
 		ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:3:5-52
 		INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml
@@ -91,7 +91,7 @@ ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\Andro
 	android:name
 		ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:12:22-77
 application
-ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:14:5-62:19
+ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:14:5-64:19
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\DElll\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\3feb9f977f4d0d4a0d30f78f7c83107e\AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\DElll\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\3feb9f977f4d0d4a0d30f78f7c83107e\AndroidManifest.xml:30:5-20
 MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\DElll\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\67111af5388fff382086c1b061611ffe\AndroidManifest.xml:7:5-20
@@ -206,6 +206,14 @@ ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\Andro
 		ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:61:13-57
 	android:name
 		ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:60:13-51
+activity#info.androidhive.loginandregistration.activity.DetailActivity
+ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:62:9-61
+	android:name
+		ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:62:19-58
+activity#info.androidhive.loginandregistration.activity.reviewsActivity
+ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:63:9-71
+	android:name
+		ADDED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml:63:19-59
 uses-sdk
 INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\DElll\Desktop\AndroidLoginAndRegistration\app\src\main\AndroidManifest.xml
